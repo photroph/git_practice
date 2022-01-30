@@ -17,6 +17,10 @@ branchは単にcommitを指すポインタ
 git branchでリスト表示，-aでリモートも表示
 git checkoutでHEADの参照先branchを切り替える
 
+### merge
+fast forward merge ... pointerがbranchの先側に移動するだけのmerge
+auto merge ... 新たにcommitが作成され，parentが2つできるmerge
+
 
 # REMOTE
 pull = fetch + merge (*
